@@ -1,0 +1,5 @@
+/build/
+/dist/
+/python_tree.egg-info/
+.DS_Store
+/.idea/
