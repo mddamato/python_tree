@@ -4,7 +4,7 @@ import os, argparse, stat, pwd
 def main():
     parser = argparse.ArgumentParser(description='List args')
     parser.add_argument('path', nargs="?", default=os.getcwd())
-    parser.add_argument('--show-tree', action="store_true", dest="show_tree", default=True)
+    parser.add_argument('--show-tree', action="store_true", dest="show_tree", default=False)
     parser.add_argument('--show-stats', action="store_true", dest="show_stats", default=False)
     command_args = parser.parse_args()
 
